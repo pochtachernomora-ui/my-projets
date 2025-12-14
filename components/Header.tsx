@@ -10,6 +10,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, toggleMenu }) => {
   const navLinks = [
     { name: 'Услуги', href: '#services' },
     { name: 'Преимущества', href: '#benefits' },
+    { name: 'Работы', href: '#gallery' },
     { name: 'Отзывы', href: '#reviews' },
     { name: 'Контакты', href: '#contact' },
   ];

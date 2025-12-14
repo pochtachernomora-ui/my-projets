@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Benefits from './components/Benefits';
+import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import MapSection from './components/MapSection';
 import ContactForm from './components/ContactForm';
@@ -23,6 +24,7 @@ const App: React.FC = () => {
         <Hero />
         <Services />
         <Benefits />
+        <Gallery />
         <Testimonials />
         <MapSection />
         <ContactForm />

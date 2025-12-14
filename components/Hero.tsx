@@ -7,11 +7,11 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="https://picsum.photos/id/175/1920/1080" 
+          src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1920&auto=format&fit=crop" 
           alt="Электромонтажные работы"
           className="w-full h-full object-cover opacity-20"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900 to-slate-900/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-slate-900/50" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
@@ -21,9 +21,9 @@ const Hero: React.FC = () => {
             <span className="text-primary">в вашем доме</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
-            Профессиональные услуги электрика любой сложности. 
-            От замены розетки до полного электромонтажа квартиры под ключ.
-            Аварийный выезд в течение часа.
+            Профессиональные услуги электрика в с. Кучурган и Раздельнянском районе. 
+            От замены розетки до полного электромонтажа под ключ.
+            Аварийный выезд.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -34,10 +34,10 @@ const Hero: React.FC = () => {
               <ChevronRight className="ml-2 -mr-1 h-5 w-5" />
             </a>
             <a
-              href="#services"
+              href="#gallery"
               className="inline-flex items-center justify-center px-8 py-3 border border-slate-500 text-base font-medium rounded-md text-slate-200 hover:bg-white/10 transition-all"
             >
-              Посмотреть услуги
+              Примеры работ
             </a>
           </div>
         </div>
